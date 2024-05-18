@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Assignment</title>
+    <style>
+        #fieldset {
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px groove (internal value);
+}
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <h1>Casal AcademicTeaching Employee Application Form</h1>
+    <p>This form is for those interested in casual tutoring or demonstrating in a subject offeredby the facualty of Social Science.<br>Please sendthe completed from to <a href="emailto: finance-socialsciences@uow.edu.au.">finance-socialsciences@uow.edu.au.</a></p>
+    <center>
+        
+    </center>
+    <form action="">
+        <fieldset id="fieldset">
+            <legend><b>Personal Detail</b></legend>
+            <label for="title">Title&nbsp;&nbsp;<input type="text" name="" id="" size="25"></label>
+            <label for="First Name:">First Name: &nbsp;&nbsp; <input type="text" name="First Name:" id=""></input></label>
+            <label for="Surename:">Surename: &nbsp;&nbsp;<input type="text" name="Surename:" id=""></input></label><br><br>
+            <label for="Employee Number"> Employee Number: <br>(If applicable) &nbsp;&nbsp;<input type="number" name="Employee Number" id=""></input></label>
+            <label for="Student Number"> Student Number:(If applicable)&nbsp;&nbsp;<input type="number" name="Student Number" id=""></input></label><br><br>
+            <label for="address">Address:<textarea id="address" name="address" rows="4"></textarea></label>
+            <label for="telephone">Telephone &nbsp;&nbsp;<input type="number" name="telephone"></label><br><br>
+            <label for="Email">Email &nbsp;&nbsp;<input type="text" name="Email"></label><br><br>
+            <p>Are you an Aboriginal or Torres Strait Islander <input type="radio" name="yes" id="">Yes <input type="radio" name="No" id=""> No</p><br><br>
+            <label for=""> Citizenship<input type="text" name="" id=""></label>
+            <label for=""> Country of Birth <input type="text" name="" id=""></label><br><br>
+            <label for="">Visa Type<br>(If applicable) <input type="text" name="" id=""></label>
+            <p>Please provide supporting documentation.</p>   
+        </fieldset>
+        <fieldset>
+            <legend>Qualifications</legend>
+            <h3>Degree Information</h3>
+            <table border="1" >
+                <thead >
+                    <tr>
+                        <th colspan="100">Year<br>Completed</th>
+                        <th colspan="100">Degree Title</th>
+                        <th colspan="100">Specification</th>
+                        <th colspan="100">Univerity</th>
+                       
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="100"> &nbsp;</td>
+                        <td colspan="100"> </td>
+                        <td colspan="100"> </td>
+                        <td colspan="100"> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="100"> &nbsp;</td>
+                        <td colspan="100"> </td>
+                        <td colspan="100"> </td>
+                        <td colspan="100"> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="100"> &nbsp;</td>
+                        <td colspan="100"> </td>
+                        <td colspan="100"> </td>
+                        <td colspan="100"> </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Are you Currently undertaking further study? <input type="radio" name="yes" id="">Yes <input type="radio" name="No" id=""> No</p><br><br>
+            <p>If yes, please provide details.</p><br><br><br><br><br>
+            <h3><i>Note: Please provide certified copies of your academic transcripts with this application</i></h3>
+        </fieldset>
+    </form>
+</body>
+</html>
